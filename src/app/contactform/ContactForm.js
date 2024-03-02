@@ -3,8 +3,8 @@ const ContactForm = () => {
     return (
         <>
             <form>
-                <h4>Let's Talk About Your Requirements </h4>
-                <p>After we get some information from you, we’ll get in touch with you soon !!!.</p>
+                <h4>Lets Talk About Your Requirements </h4>
+                <p>After we get some information from you, well get in touch with you soon !!!.</p>
                 <div className="row">
                     <div className="col-md-12 col-sm-12 col-lg-12 col-xl-12">
                         <input type="text" className="form-control" placeholder="First name" />
