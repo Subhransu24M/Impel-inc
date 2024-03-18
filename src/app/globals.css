@@ -1,10 +1,35 @@
 @import '/impelinc/node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '/impelinc/node_modules/bootstrap/dist/js/bootstrap.min.js';
 
+
+
+
 p{
     font-size: 15px;
 }
 /* Slider Caption */
+
+.d-md-block h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 765px){
+.sld-img{
+    height: 300px;
+
+}
+}
+@media only screen and (max-width: 768px){
+.d-md-block {
+    display: block!important;
+    top:10px !important;
+}}
+@media only screen and (max-width: 768px){
+    .d-md-block h2 {
+        font-weight: 700;
+        font-size: 20px;
+    }}
 .carousel-caption {
     position: absolute;
     right: 45% !important; 
@@ -17,13 +42,13 @@ p{
 }
 
 .carousel-caption.d-none.d-md-block h2 {
-    color: #000;
+    color: #fff;
     font-weight: 400;
     font-family: fantasy;
     font-size: 46px;
 }
 span.sld-hdr-spn {
-    color: #124b9f;
+    color: #fff;
 }
 .prod-blk h2 {
     font-size: 18px;
@@ -49,7 +74,28 @@ span.sld-hdr-spn {
 .hm-abt-sec {
     padding: 30px 0px;
 }
+.c-hm-blk a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+.cnt-blk-hm {
+    padding: 30px 0px;
+    border-left: 1px dashed #ffffff;
+    padding-left: 24px;
+    background: #012952d1;
+    color: #fff;
+    box-shadow: -2px 1px 3px 0px #00000099;
+}
 
+.c-hm-blk {
+    padding: 6px 0px;
+}
+p.hm-cta-stm {
+    font-weight: 700;
+    color: #013356;
+    font-size: 16px;
+}
 /* Product Title Banner */
 .prod-tlt-banner-bg{
     background-image: url(../../public/images/product-bg.jpg);
@@ -179,4 +225,85 @@ h6.ftr {
     padding: 30px 0px;
     color: #d6d6d7;
     text-shadow: -3px 4px 5px black;
+}
+
+/* Services Page */
+.serv-icon {
+    width: 100px;
+    height: 100px;
+    background: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 0px #000000a1;
+}
+.serv-icon img {
+    margin: 20px;
+}
+.serv-blk {
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px #00000094;
+    /* border-radius: 6px; */
+}
+.srv-bg {
+    padding: 30px;
+    margin: 20px 0px;
+    background: #ffffffd9;
+    
+}
+.serv-blk h6 {
+    margin: 15px 0px;
+    font-weight: 600;
+}
+.serv-blk{
+    background-image: url(../../public/bg-texture.jpg);
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+ .serv-icon:hover{
+    box-shadow: inset 0px 0px 20px 11px #011f3e8c;
+}
+
+/* Our Team */
+.team-blk {
+    padding: 20px 0px;
+}
+.tm-mbr-blk img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tm-mbr-blk {
+    border-right: 1px dotted #c9c9c9;
+}
+
+/* Team Style */
+.team-brd{
+    margin: 15px 0px;
+}
+
+/* Other Product */
+.othr-inr-blk {
+    padding: 5px 0px;
+}
+.prod-btn {
+    display: flex;
+    margin: 20px 0px;
+}
+.other-prd-desc-blk {
+    padding: 30px 0px;
+}
+.oth-prd-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.oth-prd-img {
+    padding: 30px 0px;
+}
+.other-prd-desc-blk h5 {
+    border-bottom: 1px dotted grey;
+    width: 125px;
 }
