@@ -1,6 +1,6 @@
 import Image from "next/image";
-import slider1img from "../../../public/images/hmsl2.png";
-import slider2img from "../../../public/images/hmsl3.png";
+import slider1img from "../../../public/images/hmsl2.webp";
+import slider2img from "../../../public/images/hmsl3.webp";
 // import slider3img from "../../../public/images/Slider3.png";
 import Link from "next/link";
 const HeroSlider = () => {
