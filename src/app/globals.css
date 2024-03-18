@@ -30,6 +30,8 @@ p{
         font-weight: 700;
         font-size: 20px;
     }}
+
+
 .carousel-caption {
     position: absolute;
     right: 45% !important; 
@@ -58,6 +60,8 @@ span.sld-hdr-spn {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 .prod-btn {
     text-align: center;
@@ -80,9 +84,9 @@ span.sld-hdr-spn {
     font-weight: 600;
 }
 .cnt-blk-hm {
-    padding: 30px 0px;
+    padding: 15px 15px;
     border-left: 1px dashed #ffffff;
-    padding-left: 24px;
+    /* padding-left: 24px; */
     background: #012952d1;
     color: #fff;
     box-shadow: -2px 1px 3px 0px #00000099;
@@ -95,6 +99,13 @@ p.hm-cta-stm {
     font-weight: 700;
     color: #013356;
     font-size: 16px;
+}
+.cnt-blk-hm img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Product Title Banner */
 .prod-tlt-banner-bg{
@@ -274,6 +285,8 @@ h6.ftr {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 .tm-mbr-blk {
     border-right: 1px dotted #c9c9c9;
@@ -299,6 +312,8 @@ h6.ftr {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 .oth-prd-img {
     padding: 30px 0px;
