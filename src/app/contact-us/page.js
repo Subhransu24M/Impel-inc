@@ -24,7 +24,7 @@ const page = () => {
                                 </div>
                                 <div className="cnt-loc-blk">
                                     <h5>Our Email</h5>
-                                    <a href="mailto:info@impelinc.com">info@impelinc.com</a>
+                                    <a href="mailto:info@impelinc.com">info@impelincproducts.com</a>
                                 </div>
                             </div>
                         </div>
