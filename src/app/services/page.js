@@ -9,6 +9,11 @@ import riskmanagementicon from "../../../public/images/icons/risk-management.png
 import growthicon from "../../../public/images/icons/growth.png";
 import Footer from '../footer';
 
+export const metadata = {
+  title: "Our Services | Impel INC",
+  description: "At Impel Inc., we understand the complexities of the commodities market and the importance of timely, informed decisions.",
+};
+
 const Services = () => {
   return (
     <>

@@ -12,6 +12,11 @@ import img7 from "../../../public/images/productimages/harmony.webp"
 import img8 from "../../../public/images/productimages/Blue-Ribbon-Floor-Cleaner.webp"
 import img9 from "../../../public/images/productimages/Blue-Ribbon-Pet-Floor-Cleaner.webp"
 
+export const metadata = {
+  title: "Blue Ribbon Products | Impel INC",
+  description: "Your trusted partner in commodities trading. With years of experience and a passion for the markets, we specialize in providing comprehensive trading solutions tailored to your needs.",
+};
+
 const page = () => {
   return (
     <>

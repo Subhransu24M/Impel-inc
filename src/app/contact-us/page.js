@@ -2,6 +2,11 @@ import ContactForm from "../contactform/ContactForm"
 import Footer from "../footer"
 import NavBar from "../navbar/NavBar"
 
+export const metadata = {
+    title: "Contact us | Impel INC",
+    description: "Reach out to us for more information about our service and products.",
+  };
+
 const page = () => {
     return (
         <>
