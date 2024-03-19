@@ -17,14 +17,14 @@ const OurTeam = () => {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-8 col-xl-8 col-sm-12">
-                            <h4>Jamiel Jamison</h4>
-                            <p>Jamiel Jamison is a seasoned professional with over 15 years of experience in commodity trading across various industries. His expertise spans a wide range of products, from agricultural goods to precious metals. Throughout his career, Jamison has demonstrated an exceptional ability to navigate the complexities of global markets, leveraging his keen insight and analytical skills to secure profitable deals for his clients.</p>
+                            <h4>Jamiel Jamieson</h4>
+                            <p>Jamiel Jamieson is a seasoned professional with over 15 years of experience in commodity trading across various industries. His expertise spans a wide range of products, from agricultural goods to precious metals. Throughout his career, Jamieson has demonstrated an exceptional ability to navigate the complexities of global markets, leveraging his keen insight and analytical skills to secure profitable deals for his clients.</p>
                             <p>
-                                In addition to his accomplishments in commodity trading, Jamison has also made significant strides in the realm of real estate and development. With a keen eye for lucrative opportunities and a deep understanding of market trends, he has successfully overseen numerous projects, ranging from residential developments to commercial ventures.
+                                In addition to his accomplishments in commodity trading, Jamieson has also made significant strides in the realm of real estate and development. With a keen eye for lucrative opportunities and a deep understanding of market trends, he has successfully overseen numerous projects, ranging from residential developments to commercial ventures.
                             </p>
                             <p>
-                                Born with an innate entrepreneurial spirit, Jamison has always been driven by a relentless pursuit of excellence. His unwavering dedication to his craft, coupled with his commitment to integrity and professionalism, has earned him the respect and admiration of colleagues and clients alike. Beyond his professional endeavors, Jamison is also actively involved in philanthropic efforts, supporting initiatives aimed at empowering disadvantaged communities and promoting economic growth.
-                                As he continues to chart new paths and explore innovative opportunities, Jamiel Jamison remains a steadfast leader in the fields of commodity trading, real estate, and development, leaving an indelible mark on the industries he serves.
+                                Born with an innate entrepreneurial spirit, Jamieson has always been driven by a relentless pursuit of excellence. His unwavering dedication to his craft, coupled with his commitment to integrity and professionalism, has earned him the respect and admiration of colleagues and clients alike. Beyond his professional endeavors, Jamieson is also actively involved in philanthropic efforts, supporting initiatives aimed at empowering disadvantaged communities and promoting economic growth.
+                                As he continues to chart new paths and explore innovative opportunities, Jamiel Jamieson remains a steadfast leader in the fields of commodity trading, real estate, and development, leaving an indelible mark on the industries he serves.
                             </p>
                         </div>
                     </div>
