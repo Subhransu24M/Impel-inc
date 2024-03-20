@@ -308,6 +308,10 @@ h6.ftr {
     border-right: 1px dotted #c9c9c9;
 }
 
+.team{
+    padding: 20px;
+}
+
 /* Team Style */
 .team-brd{
     margin: 15px 0px;
