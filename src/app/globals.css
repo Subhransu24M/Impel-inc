@@ -36,6 +36,18 @@ p{
             justify-content: center;
         }}
 
+/* Our Team Media Query */
+@media only screen and (max-width: 765px){
+    .team h4 {
+        text-align: center;
+    }
+    }
+    @media only screen and (max-width: 765px){
+        .team p {
+            text-align: justify;
+        }
+        }
+
 .carousel-caption {
     position: absolute;
     right: 45% !important; 
