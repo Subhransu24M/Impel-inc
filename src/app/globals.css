@@ -377,7 +377,7 @@ h6.ftr {
     bottom: 0;
     width: 100%;
     background: #fff;
-    z-index: 999;
+    z-index: 999 !important;
 }
 .ftr-mnu-icon-blk {
     text-align: center;
