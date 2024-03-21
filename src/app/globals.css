@@ -16,16 +16,10 @@ p{
 
 @media only screen and (max-width: 501px){
     .sld-img{
-        height: 230px;
+        height: 230px !important;
     
     }
     }
-    /* @media only screen and (max-width: 501px){
-        .carousel-caption{
-            right: 23% !important;
-        
-        }
-        } */
 
 @media only screen and (max-width: 765px){
 .sld-img{
@@ -72,6 +66,7 @@ p{
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
+    width: 75%;
 }
 
 .carousel-caption.d-none.d-md-block h2 {
