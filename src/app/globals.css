@@ -368,17 +368,22 @@ h6.ftr {
 }
 
 /* Mobile Footer Blk */
-@media only screen and (min-width: 768px){
+/* @media only screen and (min-width: 768px){
     .ftr-mbl-mnu-blk {
         display: none;
-    }}
+    }} */
 .ftr-mbl-mnu-blk {
     position: fixed;
     bottom: 0;
     width: 100%;
     background: #fff;
+    z-index: 999;
 }
 .ftr-mnu-icon-blk {
     text-align: center;
     margin: 10px;
+}
+.ftr-mnu-icon-blk .ftr-lnk {
+    text-decoration: none;
+    color: #000;
 }
