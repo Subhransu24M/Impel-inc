@@ -14,6 +14,19 @@ p{
     font-size: 40px;
 }
 
+@media only screen and (max-width: 501px){
+    .sld-img{
+        height: 230px;
+    
+    }
+    }
+    /* @media only screen and (max-width: 501px){
+        .carousel-caption{
+            right: 23% !important;
+        
+        }
+        } */
+
 @media only screen and (max-width: 765px){
 .sld-img{
     height: 280px;
@@ -47,10 +60,12 @@ p{
             text-align: justify;
         }
         }
-
+.carousel-item.active img {
+            height: auto;
+        }
 .carousel-caption {
     position: absolute;
-    right: 45% !important; 
+    right: 45% ; 
     top: 200px;
     left: 15%;
     padding-top: 1.25rem;
