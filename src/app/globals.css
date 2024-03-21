@@ -372,7 +372,7 @@ h6.ftr {
     .ftr-mbl-mnu-blk {
         display: none;
     }} */
-.ftr-mbl-mnu-blk {
+/* .ftr-mbl-mnu-blk {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -386,4 +386,4 @@ h6.ftr {
 .ftr-mnu-icon-blk .ftr-lnk {
     text-decoration: none;
     color: #000;
-}
+} */

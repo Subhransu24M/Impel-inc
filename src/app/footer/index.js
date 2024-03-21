@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <h6 className="ftr">© 2024 , Impel Inc</h6>
-      <div className="ftr-mbl-mnu-blk">
+      {/* <div className="ftr-mbl-mnu-blk">
         <div className="container">
           <div className="row">
             <div className="col-3">
@@ -17,7 +17,6 @@ const Footer = () => {
                   <p>Home</p>
                 </Link>
               </div>
-
             </div>
             <div className="col-3">
               <div className="ftr-mnu-icon-blk">
@@ -33,7 +32,6 @@ const Footer = () => {
                   <span><MdMiscellaneousServices /></span>
                   <p>Services</p>
                 </Link>
-
               </div>
             </div>
             <div className="col-3">
@@ -46,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
