@@ -323,10 +323,10 @@ h6.ftr {
     background: #fbfbfb;
 }
 .tm-mbr-blk img {
-    display: block;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+    margin-right: auto; */
+    width: 100%;
     height: auto;
 }
 .team{
