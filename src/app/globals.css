@@ -230,6 +230,9 @@ span.cnt-bld {
 }
 
 /* Footer */
+.ftr{
+    margin: 0px;
+}
 h6.ftr {
     background: #00060f;
     padding: 10px 0px;
