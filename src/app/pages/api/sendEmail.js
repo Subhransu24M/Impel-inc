@@ -6,12 +6,12 @@ export default async function handler(req, res) {
 
     // Initialize Nodemailer transporter
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_SERVER,
-      port: process.env.SMTP_PORT,
+      host: 'sg2plcpnl0223.prod.sin2.secureserver.net',
+      port: 465,
       secure: true, // true for 465, false for other ports
       auth: {
-        user: process.env.SMTP_USERNAME,
-        pass: process.env.SMTP_PASSWORD,
+        user: 'info@impelincproducts.com',
+        pass: 'ImpeLInc@2024',
       },
     });
 
