@@ -29,6 +29,7 @@ export default async function handler(req, res) {
       res.status(500).json({ message: 'Failed to send email' });
     }
   } else {
-    res.status(405).json({ message: 'Method Not Allowed' });
+    res.setHeader('Allow', ['POST']); // Set allowed methods
+    res.status(405).end(`Method ${req.method} Not Allowed`); // Return 405 error
   }
 }
