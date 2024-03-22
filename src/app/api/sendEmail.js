@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
-    const { fname, cnumber,mailid,country, message } = req.body;
+    const { fname, cnumber, emailid, country, message } = req.body;
 
     // Initialize Nodemailer transporter
     const transporter = nodemailer.createTransport({
@@ -18,10 +18,11 @@ export default async function handler(req, res) {
     // Send mail with defined transport object
     try {
       await transporter.sendMail({
-        from: `"${fname}" <${mailid}>`,
+        from: `"${fname}" <${emailid}>`,
         to: 'info@impelincproducts.com',
+        
         subject: 'New Message from Contact Form',
-        text: fname,cnumber,mailid,country,message,
+        text: fname,cnumber,emailid,country,message,
       });
       res.status(200).json({ message: 'Email sent successfully!' });
     } catch (error) {
