@@ -1,5 +1,4 @@
 "use client"
-// import sendEmail from '../api/sendEmail';
 import { useState } from 'react';
 import axios from 'axios';
 const ContactForm = () => {
@@ -9,18 +8,6 @@ const ContactForm = () => {
     const [country, setCountry] = useState('');
     const [message, setMessage] = useState('');
 
-    // const [formData, setFormData] = useState({
-    //     fname: '',
-    //     cnumber: '',
-    //     emailid: '',
-    //     country:'',
-    //     message:'',
-    // });
-
-    
-    // const handleChange = (e) => {
-    //     setFormData({ ...formData, [e.target.name]: e.target.value });
-    // };
 
     const handleSubmit = async (e) => {
         e.preventDefault();

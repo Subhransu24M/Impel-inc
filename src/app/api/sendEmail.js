@@ -20,7 +20,7 @@ export default async function handler(req, res) {
       await transporter.sendMail({
         from: `"${fname}" <${emailid}>`,
         to: 'info@impelincproducts.com',
-        
+
         subject: 'New Message from Contact Form',
         text: fname,cnumber,emailid,country,message,
       });
@@ -31,6 +31,9 @@ export default async function handler(req, res) {
     }
   } else {
     res.setHeader('Allow', ['POST']); // Set allowed methods
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', '*');
+    res.setHeader('Access-Control-Allow-Headers', '*');
     res.status(405).end(`Method ${req.method} Not Allowed`); // Return 405 error
   }
 }
