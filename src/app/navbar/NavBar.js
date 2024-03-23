@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from "next/image";
 import '../navbar/navbar.css';
-import impelinclogo from "../../../public/images/logo/impel-inc-logo.png";
+import impelinclogo from "../../../public/images/logo/impel-inc-logo-svg.svg";
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
