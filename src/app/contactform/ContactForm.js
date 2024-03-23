@@ -21,7 +21,7 @@ const ContactForm = () => {
             return false;
         }
 
-        await fetch("/api/sendResendmail", {
+        await fetch("../api/sendResendmail", {
             method: "POST",
             body: JSON.stringify({ fname, cnumber, mailid, country, message }),
         })
