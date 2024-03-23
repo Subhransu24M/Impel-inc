@@ -7,62 +7,68 @@ const ContactForm = () => {
     const [mailid, setMailid] = useState('');
     const [country, setCountry] = useState('');
     const [message, setMessage] = useState('');
-    // const [loading, setLoading] = useState('false');
+
 
 
     const handleSubmit = async (e) => {
-        // setLoading(true);
         e.preventDefault();
         // Call a function to send email using Nodemailer with formData
 
         if (fname == "" && cnumber == "" && mailid == "" && country == "" && message == "") {
-            // setLoading(false);
             alert("Please enter all the field");
             return false;
         }
 
-        await fetch("../api/sendResendmail", {
-            method: "POST",
-            body: JSON.stringify({ fname, cnumber, mailid, country, message }),
-        })
-            .then((res) => res.json())
-            .then((data) => {
-                // setLoading(false);
-                if (data && data.id) {
-                    alert(`Thank you for your interest ${fname}! We will get back to you soon!`);
-                    setFname("");
-                    setCnumber("");
-                    setMailid("");
-                    setCountry("");
-                    setMessage("");
-                } else {
-                    alert("Apologies! Please try again.");
-                }
+        // New Mail Handle
+
+        const response = await fetch ('/api/sendEmailroute',{
+            method : 'POST',
+            headers :{
+               'content-type': 'application/json'
+            },
+            body : JSON.stringify({
+                fname,cnumber,mailid,country,message
             })
-            .catch((err) => {
-                // setLoading(false);
-                alert("Ooops! unfortunately some error has occurred.");
-            });
-        return true;
+        })
+        console.log(await response.json())
 
-
+        // await fetch("../api/sendResendmail", {
+        //     method: "POST",
+        //     body: JSON.stringify({ fname, cnumber, mailid, country, message }),
+        // })
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         if (data && data.id) {
+        //             alert(`Thank you for your interest ${fname}! We will get back to you soon!`);
+        //             setFname("");
+        //             setCnumber("");
+        //             setMailid("");
+        //             setCountry("");
+        //             setMessage("");
+        //         } else {
+        //             alert("Apologies! Please try again.");
+        //         }
+        //     })
+        //     .catch((err) => {
+        //         alert("Ooops! unfortunately some error has occurred.");
+        //     });
+        // return true;
 
 
         // Call a function to send email using Nodemailer with formData -2
 
-        //     try {
-        //         const response = await axios.post('/api/sendEmail', {
-        //           fname,
-        //           cnumber,
-        //           mailid,
-        //           country,
-        //           message,
-        //         });
-        //         console.log(response.data);
-        //       } catch (error) {
-        //         console.error(error);
-        //       }
-
+            // try {
+            //     const response = await axios.post('../api/sendResendmail', {
+            //       fname,
+            //       cnumber,
+            //       mailid,
+            //       country,
+            //       message,
+            //     });
+            //     console.log(response.data);
+            //   } catch (error) {
+            //     console.error(error);
+            //   }
     };
 
     return (
