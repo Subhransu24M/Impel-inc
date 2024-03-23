@@ -7,12 +7,12 @@ export async function POST(request){
     try {
         const transporter = nodemailer.createTransport({
             service:'godaddy',
-            host: 'sg2plcpnl0223.prod.sin2.secureserver.net',
-            port: 465,
+            host: `${process.env.SMTP_SERVER}`,
+            port: `${process.env.SMTP_PORT}`,
             secure: true, // true for 465, false for other ports
             auth: {
-              user: 'info@impelincproducts.com',
-              pass: 'ImpeLInc@2024',
+              user: `${process.env.SMTP_USERNAME}`,
+              pass: `${process.env.SMTP_PASSWORD}`,
             },
           })
     
