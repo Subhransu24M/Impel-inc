@@ -7,16 +7,16 @@ const ContactForm = () => {
     const [mailid, setMailid] = useState('');
     const [country, setCountry] = useState('');
     const [message, setMessage] = useState('');
-    const [loading, setLoading] = useState('false');
+    // const [loading, setLoading] = useState('false');
 
 
     const handleSubmit = async (e) => {
-        setLoading(true);
+        // setLoading(true);
         e.preventDefault();
         // Call a function to send email using Nodemailer with formData
 
         if (fname == "" && cnumber == "" && mailid == "" && country == "" && message == "") {
-            setLoading(false);
+            // setLoading(false);
             alert("Please enter all the field");
             return false;
         }
@@ -27,7 +27,7 @@ const ContactForm = () => {
         })
             .then((res) => res.json())
             .then((data) => {
-                setLoading(false);
+                // setLoading(false);
                 if (data && data.id) {
                     alert(`Thank you for your interest ${fname}! We will get back to you soon!`);
                     setFname("");
@@ -40,7 +40,7 @@ const ContactForm = () => {
                 }
             })
             .catch((err) => {
-                setLoading(false);
+                // setLoading(false);
                 alert("Ooops! unfortunately some error has occurred.");
             });
         return true;
@@ -88,8 +88,8 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="cnt-smt-btn">
-                    {/* <button className="btn btn-primary" type="submit">Submit</button> */}
-                    <button
+                    <button className="btn btn-primary" type="submit">Submit</button>
+                    {/* <button
                         type="submit"
                         className="flex justify-center rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500"
                     >
@@ -103,7 +103,7 @@ const ContactForm = () => {
                         ) : (
                             "Submit"
                         )}
-                    </button>
+                    </button> */}
                 </div>
             </form>
         </>
