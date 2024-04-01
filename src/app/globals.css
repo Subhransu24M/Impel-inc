@@ -2,7 +2,35 @@
 @import '/impelinc/node_modules/bootstrap/dist/js/bootstrap.min.js';
 
 
+/* Resposive Menu */
+@media(max-width:991px){
+    ul.navbar-nav.ml-auto.mb-2.mb-lg-0 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 999;
+        background: rgb(255 255 255 / 83%);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        display: block;
+        padding: 20px;
+        box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    }
+}
 
+@media(min-width:991px){
+    .btn-close {
+        display: none;
+    }
+}
+
+@media(max-width:991px){
+    .btn-close {
+        margin-bottom: 30px;
+    }
+    
+}
 
 p{
     font-size: 15px;

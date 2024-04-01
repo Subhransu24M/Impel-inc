@@ -17,7 +17,7 @@ export async function POST(request){
           })
     
           const mailOption ={
-            from: 'info@impelincproducts.com',
+            from: 'info@next.webtricxdigital.com',
             to: 'subhransuseo18@gmail.com',
             subject: "🎉New submission to your contact form!",
             html:`
