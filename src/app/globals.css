@@ -217,14 +217,14 @@ p.hm-cta-stm {
     font-size: 16px;
 }
 .hm-rght-cta-sec-blk {
-    padding: 15px;
+    padding: 20px 30px;
 }
 .hm-rght-cta-sec-blk p {
     color: #606060;
 }
 .cnt-blk-hm img {
-    max-width: 100%;
-    /* width: 100%; */
+    /* max-width: 100%; */
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
