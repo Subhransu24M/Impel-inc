@@ -23,7 +23,10 @@ const NavBar = () => {
                         {/* <li className="nav-item" onClick={closeResMenuButton}>
                             <Link className="close-btn" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg></Link>
                         </li> */}
+                        <div className='menu-res-cls-btn'>
                         <button type="button" className="btn-close btn-close-black" data-bs-toggle="collapse" aria-label="Close" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"></button>
+                        </div>
+                        
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" href="/">Home</Link>
                         </li>

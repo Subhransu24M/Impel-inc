@@ -78,6 +78,12 @@ ul.dropdown-menu.show li a {
     padding: 7px 0px 7px 15px;
 }
 
+.menu-res-cls-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 0px 40px 0px;
+}
+
 /* Slider Caption */
 
 .d-md-block h2 {
