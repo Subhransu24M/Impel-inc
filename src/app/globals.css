@@ -223,8 +223,8 @@ p.hm-cta-stm {
     color: #606060;
 }
 .cnt-blk-hm img {
-    /* max-width: 100%; */
-    width: 100%;
+    max-width: 100%;
+    /* width: 100%; */
     height: auto;
     display: block;
     margin-left: auto;
