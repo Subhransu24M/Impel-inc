@@ -25,7 +25,7 @@ const page = () => {
                                 <p>If you’ve got questions or ideas you would like to share, send a message. For anything more specific, please use one of the addresses listed below.</p>
                                 <div className="cnt-loc-blk">
                                     <h5>Our Location</h5>
-                                    <p>3838 Oak Lawn Ave STE#1000 Dallas, TX 75219 , United States</p>
+                                    <p>3838 Oak Lawn Ave STE#1000 Dallas, TX 75219</p>
                                 </div>
                                 <div className="cnt-loc-blk">
                                     <h5>Our Email</h5>

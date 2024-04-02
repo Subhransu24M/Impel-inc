@@ -29,6 +29,7 @@ const HomeContent = () => {
                             <Image src={companyimage3} alt="" width={300} height={230} />
                             <div className="hm-rght-cta-sec-blk">
                                 <h3>Get in Touch</h3>
+                                <hr></hr>
                                 <p>3838 Oak Lawn Ave STE#1000 Dallas, TX 75219</p>
                                 <div className="c-hm-blk">
                                     <a href="mailto:info@impelincproducts.com">info@impelincproducts.com</a>
