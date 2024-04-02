@@ -32,9 +32,12 @@
     
 }
 
-p{
+p {
     font-size: 15px;
+    color: #606060;
+    font-family: sans-serif;
 }
+
 /* Slider Caption */
 
 .d-md-block h2 {
@@ -129,7 +132,9 @@ span.sld-hdr-spn {
     height: auto;
 }
 .prod-btn {
-    text-align: center;
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
 }
 .prod-blk {
     margin: 20px 0px;
@@ -162,8 +167,14 @@ span.sld-hdr-spn {
 }
 p.hm-cta-stm {
     font-weight: 700;
-    color: #013356;
+    color: #606060;
     font-size: 16px;
+}
+.hm-rght-cta-sec-blk {
+    padding: 15px;
+}
+.hm-rght-cta-sec-blk p {
+    color: #fff;
 }
 .cnt-blk-hm img {
     max-width: 100%;
