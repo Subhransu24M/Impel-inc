@@ -10,7 +10,7 @@
         right: 0;
         height: 100vh;
         z-index: 999;
-        background: rgb(255 255 255 / 83%);
+        background: rgba(255, 255, 255, 0.73);
         backdrop-filter: blur(10px);
         width: 100%;
         display: block;
