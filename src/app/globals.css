@@ -44,6 +44,10 @@ p {
     font-family: sans-serif;
 }
 
+.carousel-caption.d-md-block.aos-init.aos-animate p {
+    color: #fff;
+}
+
 /* Nav Style */
 li.nav-item a {
     color: #000;
