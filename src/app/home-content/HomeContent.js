@@ -24,9 +24,9 @@ const HomeContent = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 col-sm-12 col-lg-4 col-xl-4">
-                        <div className="cnt-blk-hm" data-aos="fade-left">
-                            <Image src={companyimage3} alt="" width={300} height={230} />
+                    <div className="col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xs-12">
+                        <div className="cnt-blk-hm" >
+                            <Image src={companyimage3} alt="" height={230} />
                             <div className="hm-rght-cta-sec-blk">
                                 <h3>Get in Touch</h3>
                                 <hr></hr>

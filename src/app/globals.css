@@ -1,7 +1,10 @@
 @import '/impelinc/node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '/impelinc/node_modules/bootstrap/dist/js/bootstrap.min.js';
 
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* Resposive Menu */
 @media(max-width:991px){
     ul.navbar-nav.ml-auto.mb-2.mb-lg-0 {
