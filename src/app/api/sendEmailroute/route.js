@@ -14,7 +14,7 @@ export async function POST(request){
             host: process.env.SMTP_SERVER,
             pool: true,
             port,
-            secure: port === 465 ? false : false, // true for 465, false for other ports
+            secure: port === 465 ? true : false, // true for 465, false for other ports
             auth: {
               user: process.env.SMTP_USERNAME,
               pass: process.env.SMTP_PASSWORD,

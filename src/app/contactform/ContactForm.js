@@ -74,7 +74,7 @@ const ContactForm = () => {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={(ev) => handleSubmit (ev)}>
                 <h4>Lets Talk About Your Requirements </h4>
                 <p>After we get some information from you, well get in touch with you soon !!!.</p>
                 <div className="row">
