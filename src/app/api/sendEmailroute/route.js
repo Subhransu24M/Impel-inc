@@ -2,10 +2,10 @@ import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(request){
-  // console.log ("trying to send me");
-  // console.log(process.env.SMTP_SERVER);
-  // console.log(process.env.SMTP_USERNAME);
-  // console.log(process.env.SMTP_PASSWORD);
+  console.log ("trying to send me");
+  console.log(process.env.SMTP_SERVER);
+  console.log(process.env.SMTP_USERNAME);
+  console.log(process.env.SMTP_PASSWORD);
     const { fname, cnumber, mailid, country, message } = await request.json();
     const port = parseInt(process.env.SMTP_PORT)
     try {
@@ -25,25 +25,25 @@ export async function POST(request){
           })
     
           const mailOption ={
-            from: 'info@next.webtricxdigital.com',
-            to: 'subhransuseo18@gmail.com',
+            from: 'info@impelincproducts.com',
+            to: 'info@impelincproducts.com',
             subject: "🎉New submission to your contact form!",
             html:`
              <h3>Impel Inc Form Details</h3>
-             <li>Name : ${fname}</li>
-             <li>Name : ${cnumber}</li>
-             <li>Name : ${mailid}</li>
-             <li>Name : ${country}</li>
-             <li>Name : ${message}</li>
+             <li>Name : <strong>${fname}</strong></li>
+             <li>Contact Number : <strong>${cnumber}</strong></li>
+             <li>Mail Id : <strong>${mailid}</strong></li>
+             <li>Country : <strong>${country}</strong></li>
+             <li>Message : <strong>${message}</strong></li>
             `
           }
     
           const result  = await transporter.sendMail(mailOption)
-          // console.log(result)
+          console.log(result)
 
           return NextResponse.json({message : "Email Sent Sucessfully"},{status :200})
     } catch (error) {
-      // console.log(error)
+      console.log(error)
         return NextResponse.json({message : "Email Send Failed"}, {status : 500})
 
     }
