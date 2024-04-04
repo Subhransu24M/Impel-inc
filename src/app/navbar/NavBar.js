@@ -31,13 +31,13 @@ const NavBar = () => {
                             <Link className="nav-link active" aria-current="page" href="/">Home</Link>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <Link class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </Link>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><Link class="dropdown-item" href="/blue-ribbon">Blue Ribbion</Link></li>
-                                <li><Link class="dropdown-item" href="/other-products">Other Products</Link></li>
+                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><Link className="dropdown-item" href="/blue-ribbon">Blue Ribbion</Link></li>
+                                <li><Link className="dropdown-item" href="/other-products">Other Products</Link></li>
                             </ul>
                         </li>
 

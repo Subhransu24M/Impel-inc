@@ -22,6 +22,7 @@ const ContactForm = () => {
         // New Mail Handle
 
         const response = await fetch ('/api/sendEmailroute',{
+            credentials : 'same-origin',
             method : 'POST',
             headers :{
                'content-type': 'application/json'
