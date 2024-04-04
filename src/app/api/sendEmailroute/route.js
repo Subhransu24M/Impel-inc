@@ -2,15 +2,14 @@ import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(request){
-  console.log ("trying to send me");
-  console.log(process.env.SMTP_SERVER);
-  console.log(process.env.SMTP_USERNAME);
-  console.log(process.env.SMTP_PASSWORD);
+  // console.log ("trying to send me");
+  // console.log(process.env.SMTP_SERVER);
+  // console.log(process.env.SMTP_USERNAME);
+  // console.log(process.env.SMTP_PASSWORD);
     const { fname, cnumber, mailid, country, message } = await request.json();
     const port = parseInt(process.env.SMTP_PORT)
     try {
         const transporter = nodemailer.createTransport({
-            // service:'godaddy',
             host: process.env.SMTP_SERVER,
             pool: true,
             port,
@@ -39,11 +38,11 @@ export async function POST(request){
           }
     
           const result  = await transporter.sendMail(mailOption)
-          console.log(result)
+          // console.log(result)
 
           return NextResponse.json({message : "Email Sent Sucessfully"},{status :200})
     } catch (error) {
-      console.log(error)
+      // console.log(error)
         return NextResponse.json({message : "Email Send Failed"}, {status : 500})
 
     }
