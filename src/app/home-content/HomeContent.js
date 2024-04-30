@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import companyimage2 from "../../../public/images/productimages/Blue-Ribbon-Pet-Floor-Cleaner.webp";
+// import companyimage2 from "../../../public/images/productimages/Blue-Ribbon-Pet-Floor-Cleaner.webp";
 import companyimage3 from "../../../public/images/hmsld10.jpg";
 import ContactForm from "../contactform/ContactForm";
 
