@@ -7,7 +7,7 @@ import img1 from "../../../public/images/productimages/Eco-Friendly-Laundry-Solu
 import img2 from "../../../public/images/productimages/Gentle-Dishwashing-Excellence.png";
 import img3 from "../../../public/images/productimages/Washing Powder 1.webp";
 import img4 from "../../../public/images/productimages/Organic-Hand-Care.png"
-import img5 from "../../../public/images/productimages/Washing Powder 1.webp"
+// import img5 from "../../../public/images/productimages/Washing Powder 1.webp"
 import img6 from "../../../public/images/productimages/Stain-Free-Laundry-Adventures.png"
 import img7 from "../../../public/images/productimages/harmony.webp"
 import img8 from "../../../public/images/productimages/Blue-Ribbon-Floor-Cleaner.webp"
@@ -23,7 +23,7 @@ export const BlueRibbonLoad = () => {
         { image: img3, title: "Hypoallergenic Laundry Marvels", description: "Safeguard your family with our Hypoallergenic washing powder - designed for the most sensitive skin." },
 
         { image: img4, title: "Organic Hand Care", description: "Nourish your hands with our Organie hand soap - a touch of nature for every wash." },
-        { image: img5, title: "Problem Solving Solutions", description: "Discover the Best detergent for sensitive skin and bid farewell to skin irritations forever." },
+        // { image: img5, title: "Problem Solving Solutions", description: "Discover the Best detergent for sensitive skin and bid farewell to skin irritations forever." },
         { image: img6, title: "Stain-Free Laundry Adventures", description: "Say goodbye to stains with our specialty Stain removal laundry soap your laundrys new superhero." },
         { image: img7, title: "Brand and Nature Harmony", description: "Immerse yourself in the goodness of our Natural ingredient dish soap - where brand meets ecofriendly innovation." },
         { image: img8, title: "Lifestyle Essentials", description: "Elevate your home cleaning with Family-safe cleaning products designed for an eco-conscious lifestyle." },
