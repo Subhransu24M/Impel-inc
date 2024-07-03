@@ -49,7 +49,7 @@ export const BlueRibbonLoad = () => {
                     <div className='row'>
                         {items.slice(0, visibleItems).map((item, index) => (
                             <div key={index} className='col-md-6 col-xl-4 col-lg-4 col-sm-12'>
-                                <div className='prod-blk'>
+                                <div className='prod-blk' data-aos="zoom-in">
                                     <div className='prod-blk-img'>
                                     <Image src={item.image} alt={item.title} />
                                     </div>
